@@ -54,7 +54,7 @@ class Trabajador {
   }
 }
 
-class RegistrarCliente {
+class RegistrarTroca {
   // Atributos de la clase
   String codigoTroca;
   int anio; // Cambiado de "año" a "anio"
@@ -67,7 +67,7 @@ class RegistrarCliente {
   String idSucursal;
 
   // Constructor
-  RegistrarCliente({
+  RegistrarTroca({
     required this.codigoTroca,
     required this.anio, // Cambiado de "año" a "anio"
     required this.modelo,
@@ -197,7 +197,7 @@ void main() {
 
   // Ejemplo de uso de la clase RegistrarCliente
   print("\n=== Registro de Troca ===");
-  RegistrarCliente troca = RegistrarCliente(
+  RegistrarTroca troca = RegistrarTroca(
     codigoTroca: "",
     anio: 0, // Cambiado de "año" a "anio"
     modelo: "",
